@@ -2,17 +2,31 @@ body {
     margin:0;
 }
 
+
+
 header {
     background-color:#1f2937;
-    height:40vw;
+    height:40vh;
     margin:0;
-    display:flex;
-    justify-content: space-evenly;
+    
 }
 #top-div {
 
-    display:block;
+    display:flex;
+    justify-content:space-evenly;
     
+}
+#title-div {
+    display: flex;
+    
+    justify-content: space-evenly;
+}
+#maybe {
+    flex-direction: column;
+}
+#hope {
+    display: flex;
+
 }
 
 h3 {
@@ -29,13 +43,17 @@ li {
     float:right;
 }
 #big-img {
-    display: block;
+    display: flex;
     height: 150px;
-    width: 150px;
+    width: 350px;   
+    align-self: center;
+}
+li {
+    padding: 5px;
 }
 
 #big-button {
-    height: 20px;
+    border:none;
 }
 
 #title {
@@ -54,29 +72,74 @@ li {
 h2 {
     font-size: 36px;
     font-weight: 900;
+    text-align: center;
 }
 
 #quote-div {
     background-color:#e5e7eb;
     font-size: 36px;
     font-family:light-italic;
+    display: flex;
+    height:30vh;
+    flex:1;
+    align-items: center;
+    justify-content: center;
+}
+#quote-text{
+    width:75vw;
 }
 
 #action-div {
     background-color: #3882f6;
-    color:#f9faf8;  
+    color:#f9faf8; 
+    display: flex;
+    width: 50vw;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9px;;
+    margin-left: 20vw;
+    margin-top:12vh;
+    margin-bottom: 12vh;
+
 }
 
 button {
     background-color: #3882f6;
     color:#f9faf8;
+    border-radius: 10px;
+    height: 35px;
+    width: 125px;
+    border:3px solid white;
 }
 footer {
     background-color:#1f2937;
-    height:7vw;
+    height:3vh;
 }
 
 #copy {
     margin:0;
     color:#f9faf8;
+}
+#img-div{
+    display: flex;
+    justify-content: space-evenly;
+}
+#description{
+    display: flex;
+    justify-content:space-around;
+    width: 88vw;
+}
+.small-img{
+    height:175px;
+    width: 150px;
+    border:solid 3px blue;
+    border-radius: 15px;
+}
+#action-p {
+    margin-left:15px;
+    margin-right:15px;
+}
+button:hover{
+    background-color:grey
 }
